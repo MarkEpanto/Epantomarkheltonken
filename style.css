@@ -1,0 +1,211 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    background-image: url();
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: white;
+}
+.Profile {
+    background-color: white;
+    text-align: center;
+    width: 100%;
+    padding: 10px 0px;
+}
+.Profile img {
+    width: 10%;
+}
+.item {
+    background-image: url(img/fans.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    float: left;
+    display: inline-flex;
+    width: 20%;
+    padding: 138px 2px 138px 1px;
+    margin: 50px 0px 2px 60px;
+    text-align: center;
+}
+.item2 {
+    display: inline-flex;
+    color: black;
+    float: left;
+    background-color:  gainsboro;
+    width: 20%;
+    padding: 111px 0px 110px 20px;
+    margin: 50px 0px 2px 0px;
+    text-align: left;
+}
+.item3 {
+    background-image: url(img/media.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    float: left;
+    display: inline-flex;
+    width: 20%;
+    padding: 138px 2px 138px 1px;
+    margin: 50px 0px 2px 60px;
+    text-align: center;
+}
+.main {
+    display: inline-flex;
+    color: gold;
+    background-color: black;
+    padding: 20px 0px 20px 0px;
+    font-family: 'Comforter', cursive;
+    font-size: 10px;
+    width: 100%;
+} 
+.main a.a1{
+    color: gold;
+    font-size: 20px;
+    padding-right: 900px;
+    padding-left: 20px;
+}
+.main a.a1:hover{
+    color: white;
+}
+.main a{
+    text-decoration: none;
+    color: white;
+    margin-top: 2px;
+    font-size: 14px;
+    transition-duration: 400ms;
+}
+.main a:hover {
+    color: gold;
+    letter-spacing: 2px;
+} 
+.main a.active {
+    color: yellow;
+    font-style: italic;
+    font-size: 17px;
+}
+.main ul li {
+    display: inline-flex;
+    text-decoration: none;
+    margin-left: 52px;
+}
+.main h1 {
+    color: yellow;
+}
+.banner {
+    display: inline-block;
+    background-color: black;
+    color: white;
+    padding: 200px 200px 200px 200px;
+    text-align: center;
+}
+.banner2 {
+    display: inline-block;
+    background-color: black;
+    color: white;
+    padding: 200px 200px 200px 200px;
+    text-align: center;
+    margin-top: 50px;
+}
+.choice1 {
+    background-image: url(img/altar.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: inline-flex;
+    width: 40%;
+    padding: 118px 0px 118px 0px;
+    margin: 50px 0.8px 2px 91px;
+    text-align: center;
+}   
+.choice2 {
+    display: inline-flex;
+    color: black;
+    float: right;
+    background-color:  gainsboro;
+    width: 40%;
+    padding: 100px 66px 100px 66px;
+    margin: 50px 80px 2px 0px;
+    text-align: center;
+}
+.choice3 {
+    background-image: url(img/SPES-1010x1024.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: inline-flex;
+    width: 40%;
+    padding: 119px 0px 118px 0px;
+    margin: 50px 80px 2px 0px;
+    text-align: center;
+}   
+.choice4 {
+    display: inline-flex;
+    color: black;
+    float: left;
+    background-color:  gainsboro;
+    width: 40%;
+    padding: 100px 66px 100px 66px;
+    margin: 50px 0px 2px 89px;
+    text-align: center;
+}
+.choice5 {
+    background-image: url(img/pasig-elem1.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: inline-flex;
+    width: 40%;
+    padding: 219px 0px 219px 0px;
+    margin: 50px 0.8px 2px 91px;
+    text-align: center;
+} 
+.choice6 {
+    display: inline-flex;
+    color: black;
+    float: right;
+    background-color:  gainsboro;
+    width: 40%;
+    padding: 182px 66px 181px 66px;
+    margin: 50px 80px 2px 0px;
+    text-align: center;
+}
+.choice7 {
+    background-image: url(img/R.jfif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: inline-flex;
+    width: 40%;
+    padding: 219px 0px 219px 0px;
+    margin: 50px 0.8px 2px 91px;
+    text-align: center;
+} 
+.choice8 {
+    background-image: url(img/92_big.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: inline-flex;
+    width: 40%;
+    padding: 219px 0px 219px 0px;
+    margin: 50px 0.8px 2px 91px;
+    text-align: center;
+} 
+.footer {
+    margin-top: 45px;
+    background: black;
+    display: inline-block;
+    padding: 5px 0px 5px 0px;
+    color: white;
+    width: 100%;
+    text-align: center;
+}
+.about-content {
+    background: black;
+    color: white;
+    padding: 17.9% 10%;
+}
+.about-content h1 {
+    font-size: 40px;
+}
+@media(max-width: 798px) {
+    .showcase,
+    .showcase header {
+      padding: 40px;
+    }
+}

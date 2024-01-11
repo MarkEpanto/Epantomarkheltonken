@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="Webpage">
+        <meta name="keywords" content="Sample,Webpage">
+        <meta name="author" content="Group5">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Kairuuu</title>
+        <link rel="icon" href="img/flaticon.png" type="image/x-icon">
+        <link rel="stylesheet" href="mystyle.css">
+    </head>
+    <body>
+        <section class="showcase">
+            <header>
+                <h2 class="logo">CCS-BSIT</h2>
+                <div class="#"></div>
+            </header>
+                <video src="network.mp4"loop autoplay></video>
+                <div class="overlay"></div>
+                <div class="text">
+                    <h2>Project</h2>
+                    <h3>Web Developement</h3>
+                    <p>This Webpage or program is created for Finals Web Developement which is to create a webpage that contains my Biography </p>
+                    <a href="student.html">Explore</a>
+            </div>
+
+            <ul class="social">
+                <li class="ap4"><a href="#"><img src="https://i.ibb.co/x7P24fL/facebook.png"></a></li>
+                <li class="ap5"><a href="#"><img src="https://i.ibb.co/Wnxq2Nq/twitter.png"></a></li>
+                <li class="ap6"><a href="#"><img src="https://i.ibb.co/ySwtH4B/instagram.png"></a></li>
+            </ul>
+        </section>
+        <!-- if the menu button is not showing it`s because i get it online -->
+        <div class="menu">
+                <ul>
+                  <li><a href="Home Page.html">Explore</a></li>
+                  <li><a href="Info.html">Info</a></li>
+                  <li><a href="https://www.pocket-lint.com/phones/news">News</a></li>
+                  <li><a href="credits2.html">Credits</a></li>
+                </ul>
+        </div>    
+        <script>
+            console.log('Welcome to our webpage developement we are from the Group-4 of 11-ICT(IBM)')
+            const menuToggle = document.querySelector('.toggle')
+            const showcase = document.querySelector('.showcase')
+
+            menuToggle.addEventListener('click', () => {
+                menuToggle.classList.toggle('active')
+                showcase.classList.toggle('active')
+            })
+        </script>
+    </body>
+</html>
